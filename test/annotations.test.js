@@ -5,6 +5,7 @@ const Annotation = require('../src/models/AnnotationData');
 beforeEach(async () => {
   await Annotation.deleteMany();
 });
+
 afterEach(async () => {
   await Annotation.deleteMany();
 });

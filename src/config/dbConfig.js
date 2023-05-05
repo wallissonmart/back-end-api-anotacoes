@@ -6,6 +6,7 @@ const connection = mongoose
   .connect(dbConfig, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    dbName: 'notes'
   })
   .then(() => console.log("database conected"));
 

@@ -9,7 +9,7 @@ module.exports = {
     const { title, notes, priority } = req.body;
 
     if (!title || !notes) {
-      return res.json({ error: 'Necessáio um título/anotação!' });
+      return res.json({ error: 'Necessário um título/anotação!' });
     }
 
     const annotationCreated = await Annotations.create({

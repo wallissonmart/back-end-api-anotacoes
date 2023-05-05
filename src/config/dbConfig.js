@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const dbConfig = process.env.DB_URL || secrets.DB_URL;
+const dbConfig = process.env.DB_URL;
 
 const connection = mongoose
   .connect(dbConfig, {

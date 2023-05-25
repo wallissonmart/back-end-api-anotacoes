@@ -24,7 +24,7 @@ Para acessar a aplicação em sua máquina, basta seguir os seguintes passos:
 
 - npm run dev
 
-- agora é só acessar a rota desejada no seu navegador, ex: http://localhost:3010/annotations
+- agora é só acessar a rota desejada no seu navegador, ex: http://localhost:8000/annotations
 
 - P.S.: Não se esqueça de adicionar suas variáveis de ambiente
 
